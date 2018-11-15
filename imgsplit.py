@@ -5,6 +5,9 @@ import sys
 from os import path
 from PIL import Image
 
+def process_background():
+    raise NotImplementedError  # TODO - Write this
+
 def crop(full_path, sub_image_width, sub_image_height, num_images = None, starting_x = 0, starting_y = 0):
     orig_image = Image.open(full_path)
 
