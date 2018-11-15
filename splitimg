@@ -1,4 +1,0 @@
-#!/bin/bash
-
-# TODO - I should check the number of args before trying to run this...
-gimp -idf --batch-interpreter python-fu-eval -b "import sys; sys.path=['.']+sys.path;import splitimg;splitimg.process('$1', $2, $3, $4)" -b "pdb.gimp_quit(1)"
