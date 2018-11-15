@@ -13,5 +13,5 @@ This is a very fragile set of scripts. There is no error checking and it assumes
 # In the directory in which the splitimg bash script resides
 # splitimg <filepath> <sub-image width> <sub-image height> <number of sub-images>
 # Example:
-splitimg /home/username/Pictures/Foo.png 800 600 5
+splitimg /path/to/picture/Foo.png 800 600 5
 ```
