@@ -5,6 +5,9 @@ This project assumes that you
 1. Are using Linux
 2. Have GIMP 2.10+ installed
 
+## A Word of Warning ##
+This is a very fragile set of scripts. There is no error checking and it assumes that all the arguments sent to it are valid and exactly what you want. 
+
 # Usage #
 ```bash
 # In the directory in which the splitimg bash script resides
